@@ -26,8 +26,8 @@ You can use it like this:
 `simple-math.html`
 ```html
 <div data-component="simple-math">
-  <input bind:value=${} />
-  <input bind:value=${} />
+  <input bind:value=${first_num} />
+  <input bind:value=${second_num} />
   <h2>Answer: ${result}</h2>
   
   <script type="module">
